@@ -140,16 +140,17 @@
 
 
 
-  <meta name="description" content="生活中的小丑">
-<meta property="og:type" content="website">
+  <meta name="description" content="面试题及答案什么是mybatis的一级缓存和二级缓存​    一级缓存优化了我们的查询策略,减少了对数据库的访问次数,他是mybatis默认开启的缓存,不可关闭; ​    一级缓存是sqlsession级别的缓存,就是在同一个sqlsession中如果执行了同一个sql语句的话,只有第一次查询会访问数据库,其他都会从缓存中拿数据 ​    二级缓存是Mapper.xml级别的缓存,在同一个Map">
+<meta property="og:type" content="article">
 <meta property="og:title" content="babyBlog">
-<meta property="og:url" content="https://babymb.github.io/babymb.githup.io/index.html">
+<meta property="og:url" content="https://babymb.github.io/babymb.githup.io/2019/05/25/面试题及答案/index.html">
 <meta property="og:site_name" content="babyBlog">
-<meta property="og:description" content="生活中的小丑">
+<meta property="og:description" content="面试题及答案什么是mybatis的一级缓存和二级缓存​    一级缓存优化了我们的查询策略,减少了对数据库的访问次数,他是mybatis默认开启的缓存,不可关闭; ​    一级缓存是sqlsession级别的缓存,就是在同一个sqlsession中如果执行了同一个sql语句的话,只有第一次查询会访问数据库,其他都会从缓存中拿数据 ​    二级缓存是Mapper.xml级别的缓存,在同一个Map">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-05-22T12:33:59.731Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="babyBlog">
-<meta name="twitter:description" content="生活中的小丑">
+<meta name="twitter:description" content="面试题及答案什么是mybatis的一级缓存和二级缓存​    一级缓存优化了我们的查询策略,减少了对数据库的访问次数,他是mybatis默认开启的缓存,不可关闭; ​    一级缓存是sqlsession级别的缓存,就是在同一个sqlsession中如果执行了同一个sql语句的话,只有第一次查询会访问数据库,其他都会从缓存中拿数据 ​    二级缓存是Mapper.xml级别的缓存,在同一个Map">
 
 
 
@@ -157,7 +158,7 @@
 
   
   
-  <link rel="canonical" href="https://babymb.github.io/babymb.githup.io/">
+  <link rel="canonical" href="https://babymb.github.io/babymb.githup.io/2019/05/25/面试题及答案/">
 
 
 
@@ -167,7 +168,7 @@
   };
 </script>
 
-  <title>babyBlog</title>
+  <title> | babyBlog</title>
   
 
 
@@ -215,8 +216,7 @@
     
   
 
-  <div class="container sidebar-position-right 
-  page-home">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -258,7 +258,7 @@
         
         
           
-          <li class="menu-item menu-item-首页 menu-item-active">
+          <li class="menu-item menu-item-首页">
 
     
     
@@ -371,9 +371,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -406,9 +406,7 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/05/25/面试题及答案/" class="post-title-link" itemprop="url">Unbenannt</a>
+
               
             
           </h1>
@@ -497,9 +495,7 @@
       
 
       
-        
-          
-            <h1 id="面试题及答案"><a href="#面试题及答案" class="headerlink" title="面试题及答案"></a>面试题及答案</h1><h3 id="什么是mybatis的一级缓存和二级缓存"><a href="#什么是mybatis的一级缓存和二级缓存" class="headerlink" title="什么是mybatis的一级缓存和二级缓存"></a>什么是mybatis的一级缓存和二级缓存</h3><p>​    一级缓存优化了我们的查询策略,减少了对数据库的访问次数,他是mybatis默认开启的缓存,不可关闭;</p>
+        <h1 id="面试题及答案"><a href="#面试题及答案" class="headerlink" title="面试题及答案"></a>面试题及答案</h1><h3 id="什么是mybatis的一级缓存和二级缓存"><a href="#什么是mybatis的一级缓存和二级缓存" class="headerlink" title="什么是mybatis的一级缓存和二级缓存"></a>什么是mybatis的一级缓存和二级缓存</h3><p>​    一级缓存优化了我们的查询策略,减少了对数据库的访问次数,他是mybatis默认开启的缓存,不可关闭;</p>
 <p>​    一级缓存是sqlsession级别的缓存,就是在同一个sqlsession中如果执行了同一个sql语句的话,只有第一次查询会访问数据库,其他都会从缓存中拿数据</p>
 <p>​    二级缓存是Mapper.xml级别的缓存,在同一个Mapper执行中,只要执行的sql来源是一样的,只有第一次查询会访问数据库,其他都会从缓存中拿数据</p>
 <p>​    二级缓存也是为了优化查询策略,减少对数据可的访问次数,默认关闭,可以手动在settings标签中开启;</p>
@@ -550,8 +546,6 @@
 <p>3)、静态属性、静态方法和非静态的属性都可以被继承和隐藏而不能被重写，因此不能实现多态，不能实现父类的引用可以指向不同子类的对象。非静态方法可以被继承和重写，因此可以实现多态。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line">public class Test1 &#123;</span><br><span class="line"></span><br><span class="line">	public static void main(String[] args) &#123;</span><br><span class="line">		Cat cat = new Cat();	</span><br><span class="line">		cat.hao();	</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">/*</span><br><span class="line">- 静态变量 和 静态方法能不能被继承 但是不能被重写 </span><br><span class="line"> */</span><br><span class="line">class Animal&#123;	</span><br><span class="line">	static int a =10;</span><br><span class="line">	public static void hao() &#123;	</span><br><span class="line">		System.out.println(&quot;父类的方法&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">	public void henhao() &#123;	</span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br><span class="line">class Cat extends Animal&#123;</span><br><span class="line">/*</span><br><span class="line">static int a =11;</span><br><span class="line">	@Override</span><br><span class="line">	public static void hao() &#123;</span><br><span class="line">		System.out.println(&quot;子类的方法&quot;);</span><br><span class="line">	&#125;*/	</span><br><span class="line">    @Override</span><br><span class="line">	public void henhao() &#123;	</span><br><span class="line">	&#125;	</span><br><span class="line">&#125; </span><br><span class="line">public class Main &#123;</span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        B.hao1();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">class A&#123;</span><br><span class="line">    static &#123;</span><br><span class="line">        System.out.println(&quot;A&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">class B extends A&#123;</span><br><span class="line">	/*</span><br><span class="line">	 *  编译器存在  .  .class </span><br><span class="line">	 * 继承： 子类创建父类对象的时候，优先去初始化其父类</span><br><span class="line">	 *  无论你以何种方式去加载这个类 那么这个类中的 静态代码块是不是最先执行</span><br><span class="line">	 */</span><br><span class="line">    static &#123;</span><br><span class="line">        System.out.println(&quot;B&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">    public final static String c = &quot;C&quot;;</span><br><span class="line">    public final static void hao1() &#123;</span><br><span class="line">    	System.out.println(&quot;haha&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-          
-        
       
     </div>
 
@@ -574,12 +568,12 @@
       
 
       
+      
+      
 
       
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -589,14 +583,22 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+      </div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -616,8 +618,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -665,6 +676,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#面试题及答案"><span class="nav-number">1.</span> <span class="nav-text">面试题及答案</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是mybatis的一级缓存和二级缓存"><span class="nav-number">1.0.1.</span> <span class="nav-text">什么是mybatis的一级缓存和二级缓存</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#看代码说结果"><span class="nav-number">1.0.2.</span> <span class="nav-text">看代码说结果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用ajax请求的方式与直接访问servlet的方式有什么优势？"><span class="nav-number">1.0.3.</span> <span class="nav-text">使用ajax请求的方式与直接访问servlet的方式有什么优势？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JSP请求是如何被处理的"><span class="nav-number">1.0.4.</span> <span class="nav-text">JSP请求是如何被处理的</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#购物车能不-能存储到request域或者applicationContext域中或者session域中，如果不能为什么，如果能为什么"><span class="nav-number">1.0.5.</span> <span class="nav-text">购物车能不#能存储到request域或者applicationContext域中或者session域中，如果不能为什么，如果能为什么</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是代理模式-动态代理和静态代理有什么区别？"><span class="nav-number">1.0.6.</span> <span class="nav-text">什么是代理模式? 动态代理和静态代理有什么区别？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#动态代理基于什么原理？-典型回答："><span class="nav-number">1.0.7.</span> <span class="nav-text">动态代理基于什么原理？                 典型回答：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#静态属性和静态方法是否可以被继承？是否可以被重写？以及原因？"><span class="nav-number">1.0.8.</span> <span class="nav-text">静态属性和静态方法是否可以被继承？是否可以被重写？以及原因？</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -805,6 +833,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.1"></script>
+<script src="/js/post-details.js?v=7.1.1"></script>
+
+
 
   
 
@@ -823,9 +855,28 @@
   <script id="dsq-count-scr" src="https://.disqus.com/count.js" async></script>
 
 
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://babymb.github.io/babymb.githup.io/2019/05/25/面试题及答案/";
+    this.page.identifier = "2019/05/25/面试题及答案/";
+    this.page.title = '';
+    };
+  function loadComments() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', '' + +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  
+    loadComments();
+  
+</script>
 
 
 
+
+
+  
 
 
   
